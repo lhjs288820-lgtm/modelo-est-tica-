@@ -1,0 +1,12 @@
+/* Design system overrides: layered safely over the legacy stylesheet. */
+body { background: #FFF5F5; color: #1f2937; }
+.site-header { background: rgba(255,255,255,.7); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(244,114,182,.3); }
+.final-cta { background: #FFEBE5; color: #1f2937; }
+.footer { background: #111622; color: #9ca3af; }
+.footer-links a:hover, .instagram:hover { color: #fb7185; }
+.procedure-card, .testimonial { background: rgba(255,255,255,.9); backdrop-filter: blur(12px); border: 1px solid rgba(244,114,182,.6); border-radius: 1rem; box-shadow: 0 1px 3px rgba(15,23,42,.08); transition: all .3s ease; }
+.procedure-card:hover, .testimonial:hover { box-shadow: 0 4px 12px rgba(15,23,42,.12); transform: translateY(-.25rem); }
+.procedure-card > a { display:inline-flex; align-items:center; justify-content:center; width:100%; margin-top:1rem; padding:.625rem 1rem; border-radius:.75rem; font-size:.875rem; font-weight:600; color:#be123c; background:#fff1f2; transition:all .3s ease; cursor:pointer; box-shadow:0 1px 3px rgba(244,63,94,.15); }
+.procedure-card > a:hover { background:#e11d48; color:#fff; }
+.w-full.bg-gradient-to-r, h1.bg-gradient-to-r, h2.bg-gradient-to-r { background-image: linear-gradient(to right, #e11d48, #fb923c); background-clip:text; -webkit-background-clip:text; color:transparent; font-weight:700; }
+@media (max-width:700px) { .procedure-card { min-height:280px; } }
